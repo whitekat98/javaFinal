@@ -36,7 +36,7 @@
   <sonar.projectKey>whitekat98_javaFinal</sonar.projectKey>
   <sonar.organization>whitekat98</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>9692901b8879f83f489e09c4588df041954e6e64</sonar.login
+  <sonar.login>9692901b8879f83f489e09c4588df041954e6e64</sonar.login>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	 	<gpg.skip>true</gpg.skip>
