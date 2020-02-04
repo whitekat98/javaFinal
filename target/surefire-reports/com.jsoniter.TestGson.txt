@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestGson
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.703 s <<< FAILURE! - in com.jsoniter.TestGson
+test_Expose(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGson.test_Expose(TestGson.java:38)
+
+test_setFieldNamingStrategy(com.jsoniter.TestGson)  Time elapsed: 0.484 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_setFieldNamingStrategy(TestGson.java:104)
+
+test_setDateFormat_format(com.jsoniter.TestGson)  Time elapsed: 0.125 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGson.test_setDateFormat_format(TestGson.java:78)
+
+test_addDeserializationExclusionStrategy(com.jsoniter.TestGson)  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_addDeserializationExclusionStrategy(TestGson.java:177)
+
+test_SerializedName(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGson.test_SerializedName(TestGson.java:26)
+
+test_setFieldNamingPolicy(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_setFieldNamingPolicy(TestGson.java:117)
+
+test_null_as_long(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_null_as_long(TestGson.java:225)
+
+test_int_as_string(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_int_as_string(TestGson.java:190)
+
+test_null_as_boolean(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_null_as_boolean(TestGson.java:212)
+
+test_null_as_int(com.jsoniter.TestGson)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_null_as_int(TestGson.java:238)
+
+test_null_as_float(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_null_as_float(TestGson.java:251)
+
+test_null_as_double(com.jsoniter.TestGson)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_null_as_double(TestGson.java:264)
+
+test_setVersion(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGson.test_setVersion(TestGson.java:145)
+
+test_bool_as_string(com.jsoniter.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.TestGson.test_bool_as_string(TestGson.java:199)
+

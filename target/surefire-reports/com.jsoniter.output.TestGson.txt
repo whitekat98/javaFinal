@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestGson
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 14, Skipped: 0, Time elapsed: 0.188 s <<< FAILURE! - in com.jsoniter.output.TestGson
+test_disableHtmlEscaping_off(com.jsoniter.output.TestGson)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_disableHtmlEscaping_off(TestGson.java:216)
+
+test_getter_should_be_ignored(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestGson.test_getter_should_be_ignored(TestGson.java:65)
+
+test_setDateFormat_with_format(com.jsoniter.output.TestGson)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_setDateFormat_with_format(TestGson.java:142)
+
+test_disableHtmlEscaping_on(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.output.TestGson.test_disableHtmlEscaping_on(TestGson.java:227)
+
+test_Expose(com.jsoniter.output.TestGson)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_Expose(TestGson.java:49)
+
+test_SerializedName_on_field(com.jsoniter.output.TestGson)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestGson.test_SerializedName_on_field(TestGson.java:32)
+
+test_setFieldNamingStrategy(com.jsoniter.output.TestGson)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.output.TestGson.test_setFieldNamingStrategy(TestGson.java:166)
+
+test_excludeFieldsWithoutExposeAnnotation(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_excludeFieldsWithoutExposeAnnotation(TestGson.java:81)
+
+test_setPrettyPrinting(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_setPrettyPrinting(TestGson.java:201)
+
+test_setFieldNamingPolicy(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.output.TestGson.test_setFieldNamingPolicy(TestGson.java:181)
+
+test_serializeNulls(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.output.TestGson.test_serializeNulls(TestGson.java:102)
+
+test_addSerializationExclusionStrategy(com.jsoniter.output.TestGson)  Time elapsed: 0.062 s  <<< ERROR!
+java.lang.ClassCastException: class com.jsoniter.spi.Config cannot be cast to class com.jsoniter.extra.GsonCompatibilityMode (com.jsoniter.spi.Config and com.jsoniter.extra.GsonCompatibilityMode are in unnamed module of loader 'app')
+	at com.jsoniter.output.TestGson.test_addSerializationExclusionStrategy(TestGson.java:277)
+
+test_setDateFormat_with_style(com.jsoniter.output.TestGson)  Time elapsed: 0.016 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<"January 1, 1970 []12:00:00 AM UTC"> but was:<"January 1, 1970 [at ]12:00:00 AM UTC">
+	at com.jsoniter.output.TestGson.test_setDateFormat_with_style(TestGson.java:120)
+
+test_surrogate(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_surrogate(TestGson.java:291)
+
+test_setVersion(com.jsoniter.output.TestGson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGson.test_setVersion(TestGson.java:252)
+

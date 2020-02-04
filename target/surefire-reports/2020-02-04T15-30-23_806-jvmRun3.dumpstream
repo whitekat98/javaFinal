@@ -1,0 +1,18 @@
+# Created on 2020-02-04T15:31:45.190
+ForkStarter IOException: java.util.ConcurrentModificationException
+java.util.ConcurrentModificationException.
+org.apache.maven.plugin.surefire.booterclient.output.MultipleFailureException: java.util.ConcurrentModificationException
+java.util.ConcurrentModificationException
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer$Pumper.<init>(ThreadedStreamConsumer.java:58)
+	at org.apache.maven.plugin.surefire.booterclient.output.ThreadedStreamConsumer.<init>(ThreadedStreamConsumer.java:110)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:596)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.fork(ForkStarter.java:533)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter.access$600(ForkStarter.java:115)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:429)
+	at org.apache.maven.plugin.surefire.booterclient.ForkStarter$2.call(ForkStarter.java:406)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+

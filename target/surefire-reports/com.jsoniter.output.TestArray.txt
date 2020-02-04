@@ -1,0 +1,142 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestArray
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in com.jsoniter.output.TestArray
+test_arrays_as_list(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestArray.test_arrays_as_list(TestArray.java:114)
+
+test_array_of_null(com.jsoniter.output.TestArray)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestArray.test_array_of_null(TestArray.java:90)
+
+test_default_empty_collection(com.jsoniter.output.TestArray)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestArray.test_default_empty_collection(TestArray.java:118)
+
+test_hash_set(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestArray.test_hash_set(TestArray.java:107)
+
+test_indention(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [I with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+int[] arr = (int[])obj;
+stream.writeVal((int)e);
+if (arr.length == 0) { stream.write((byte)'[', (byte)']'); return; }
+stream.writeArrayStart(); stream.writeIndention();
+int i = 0;
+int e = arr[i++];
+while (i < arr.length) {
+stream.writeMore();
+e = arr[i++];
+if (e == null) { stream.writeNull(); } else {
+stream.writeVal((int)e);
+}
+}
+
+	at com.jsoniter.output.TestArray.test_indention(TestArray.java:129)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestArray.test_indention(TestArray.java:129)
+
+test_gen_array(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [Ljava.lang.String; with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+java.lang.String[] arr = (java.lang.String[])obj;
+if (e == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.String", (java.lang.String)e, stream);
+}
+if (arr.length == 0) { return; }
+int i = 0;
+java.lang.String e = arr[i++];
+while (i < arr.length) {
+stream.write(',');
+e = arr[i++];
+stream.write((byte)']');
+stream.writeArrayEnd();
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.String", (java.lang.String)e, stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestArray.test_gen_array(TestArray.java:26)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestArray.test_gen_array(TestArray.java:26)
+
+test_empty_collection(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestArray.test_empty_collection(TestArray.java:64)
+
+test_list_of_null(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestArray.test_list_of_null(TestArray.java:100)
+
+test_indention_with_empty_array(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [I with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+int[] arr = (int[])obj;
+stream.writeVal((int)e);
+if (arr.length == 0) { stream.write((byte)'[', (byte)']'); return; }
+stream.writeArrayStart(); stream.writeIndention();
+int i = 0;
+int e = arr[i++];
+while (i < arr.length) {
+stream.writeMore();
+e = arr[i++];
+if (e == null) { stream.writeNull(); } else {
+stream.writeVal((int)e);
+}
+}
+
+	at com.jsoniter.output.TestArray.test_indention_with_empty_array(TestArray.java:145)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestArray.test_indention_with_empty_array(TestArray.java:145)
+
+test_null_collection(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestArray.test_null_collection(TestArray.java:70)
+
+test_null_array(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestArray.test_null_array(TestArray.java:57)
+
+test_list_of_objects(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestArray.test_list_of_objects(TestArray.java:83)
+
+test_collection(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestArray.test_collection(TestArray.java:35)
+
+test_collection_without_type(com.jsoniter.output.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestArray.test_collection_without_type(TestArray.java:45)
+
+test_empty_array(com.jsoniter.output.TestArray)  Time elapsed: 0.016 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [Ljava.lang.String; with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+java.lang.String[] arr = (java.lang.String[])obj;
+if (e == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.String", (java.lang.String)e, stream);
+}
+if (arr.length == 0) { return; }
+int i = 0;
+java.lang.String e = arr[i++];
+while (i < arr.length) {
+stream.write(',');
+e = arr[i++];
+stream.write((byte)']');
+stream.writeArrayEnd();
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.String", (java.lang.String)e, stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestArray.test_empty_array(TestArray.java:51)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestArray.test_empty_array(TestArray.java:51)
+

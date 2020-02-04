@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestJackson
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 2.191 s <<< FAILURE! - in com.jsoniter.output.TestJackson
+test_JsonIgnore(com.jsoniter.output.TestJackson)  Time elapsed: 2.05 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestJackson.test_JsonIgnore(TestJackson.java:68)
+
+test_JsonProperty(com.jsoniter.output.TestJackson)  Time elapsed: 0.079 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestJackson.test_JsonProperty(TestJackson.java:53)
+
+test_JsonAnyGetter(com.jsoniter.output.TestJackson)  Time elapsed: 0.062 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestJackson.test_JsonAnyGetter(TestJackson.java:39)
+

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.extra.TestBase64
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 14.312 s <<< FAILURE! - in com.jsoniter.extra.TestBase64
+test_decode(com.jsoniter.extra.TestBase64)  Time elapsed: 0.14 s  <<< ERROR!
+com.jsoniter.spi.JsonException: read: premature end, head: 6, peek: "YWJj", buf: "YWJj"
+	at com.jsoniter.extra.TestBase64.test_decode(TestBase64.java:17)
+
+test_encode(com.jsoniter.extra.TestBase64)  Time elapsed: 14.156 s  <<< ERROR!
+java.lang.OutOfMemoryError: Java heap space
+	at com.jsoniter.extra.TestBase64.test_encode(TestBase64.java:13)
+

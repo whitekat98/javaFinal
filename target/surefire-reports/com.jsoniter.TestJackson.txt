@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestJackson
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.266 s <<< FAILURE! - in com.jsoniter.TestJackson
+test_JsonAnySetter(com.jsoniter.TestJackson)  Time elapsed: 0.234 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestJackson.test_JsonAnySetter(TestJackson.java:42)
+
+test_JsonIgnore(com.jsoniter.TestJackson)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestJackson.test_JsonIgnore(TestJackson.java:69)
+
+test_JsonProperty(com.jsoniter.TestJackson)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestJackson.test_JsonProperty(TestJackson.java:56)
+

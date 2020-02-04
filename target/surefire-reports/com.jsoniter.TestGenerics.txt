@@ -1,0 +1,96 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestGenerics
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 22, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in com.jsoniter.TestGenerics
+test_string_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_list(TestGenerics.java:26)
+
+test_linked_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_linked_list(TestGenerics.java:33)
+
+test_int_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_int_list(TestGenerics.java:19)
+
+test_generic_super_class(com.jsoniter.TestGenerics)  Time elapsed: 0.063 s  <<< ERROR!
+com.jsoniter.spi.JsonException: failed to create binding from setter: public java.lang.Object com.jsoniter.TestGenerics$Class1.getField7()
+	at com.jsoniter.TestGenerics.test_generic_super_class(TestGenerics.java:99)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_generic_super_class(TestGenerics.java:99)
+
+test_issue_103(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_issue_103(TestGenerics.java:130)
+
+test_list_of_list(com.jsoniter.TestGenerics)  Time elapsed: 0.031 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_list_of_list(TestGenerics.java:61)
+
+test_integer_map(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_integer_map(TestGenerics.java:54)
+
+test_string_map(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_map(TestGenerics.java:47)
+
+test_string_set(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_set(TestGenerics.java:40)
+
+test_complex_object(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_complex_object(TestGenerics.java:68)
+
+test_wildcard(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_wildcard(TestGenerics.java:140)
+
+test_string_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_list(TestGenerics.java:26)
+
+test_linked_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_linked_list(TestGenerics.java:33)
+
+test_int_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_int_list(TestGenerics.java:19)
+
+test_generic_super_class(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: failed to create binding from setter: public java.lang.Object com.jsoniter.TestGenerics$Class1.getField7()
+	at com.jsoniter.TestGenerics.test_generic_super_class(TestGenerics.java:99)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_generic_super_class(TestGenerics.java:99)
+
+test_issue_103(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_issue_103(TestGenerics.java:130)
+
+test_list_of_list(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_list_of_list(TestGenerics.java:61)
+
+test_integer_map(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_integer_map(TestGenerics.java:54)
+
+test_string_map(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_map(TestGenerics.java:47)
+
+test_string_set(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestGenerics.test_string_set(TestGenerics.java:40)
+
+test_complex_object(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_complex_object(TestGenerics.java:68)
+
+test_wildcard(com.jsoniter.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestGenerics.test_wildcard(TestGenerics.java:140)
+

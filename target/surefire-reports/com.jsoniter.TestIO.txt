@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestIO
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.jsoniter.TestIO
+test_read_bytes(com.jsoniter.TestIO)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<49> but was:<0>
+	at com.jsoniter.TestIO.test_read_bytes(TestIO.java:24)
+
+test_read_byte(com.jsoniter.TestIO)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<49> but was:<0>
+	at com.jsoniter.TestIO.test_read_byte(TestIO.java:14)
+
+test_unread_byte(com.jsoniter.TestIO)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<49> but was:<0>
+	at com.jsoniter.TestIO.test_unread_byte(TestIO.java:35)
+

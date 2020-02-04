@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestSpiPropertyEncoder
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! - in com.jsoniter.output.TestSpiPropertyEncoder
+test_PropertyEncoder_for_type_literal(com.jsoniter.output.TestSpiPropertyEncoder)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestSpiPropertyEncoder.test_PropertyEncoder_for_type_literal(TestSpiPropertyEncoder.java:30)
+
+test_PropertyEncoder(com.jsoniter.output.TestSpiPropertyEncoder)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestSpiPropertyEncoder.test_PropertyEncoder(TestSpiPropertyEncoder.java:25)
+

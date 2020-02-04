@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestSpiPropertyDecoder
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in com.jsoniter.TestSpiPropertyDecoder
+test_PropertyDecoder(com.jsoniter.TestSpiPropertyDecoder)  Time elapsed: 0.062 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestSpiPropertyDecoder.test_PropertyDecoder(TestSpiPropertyDecoder.java:28)
+
+test_PropertyDecoder_for_type_literal(com.jsoniter.TestSpiPropertyDecoder)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestSpiPropertyDecoder.test_PropertyDecoder_for_type_literal(TestSpiPropertyDecoder.java:33)
+

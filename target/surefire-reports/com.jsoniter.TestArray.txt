@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestArray
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.jsoniter.TestArray
+test_null(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_null(TestArray.java:170)
+
+test_five_elements(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_five_elements(TestArray.java:154)
+
+test_four_elements(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_four_elements(TestArray.java:126)
+
+test_iterator(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3,4]
+	at com.jsoniter.TestArray.test_iterator(TestArray.java:179)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3,4]
+	at com.jsoniter.TestArray.test_iterator(TestArray.java:179)
+
+test_array_lazy_any_to_string(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.TestArray.test_array_lazy_any_to_string(TestArray.java:198)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.TestArray.test_array_lazy_any_to_string(TestArray.java:198)
+
+test_one_element(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_one_element(TestArray.java:42)
+
+test_boolean_array(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_boolean_array(TestArray.java:175)
+
+test_three_elements(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_three_elements(TestArray.java:100)
+
+test_two_elements(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_two_elements(TestArray.java:74)
+
+test_empty_array(com.jsoniter.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestArray.test_empty_array(TestArray.java:25)
+

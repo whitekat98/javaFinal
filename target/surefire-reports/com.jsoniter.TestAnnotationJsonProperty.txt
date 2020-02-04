@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestAnnotationJsonProperty
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in com.jsoniter.TestAnnotationJsonProperty
+test_required(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_required(TestAnnotationJsonProperty.java:125)
+
+test_getter_and_setter(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_getter_and_setter(TestAnnotationJsonProperty.java:144)
+
+test_rename(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_rename(TestAnnotationJsonProperty.java:26)
+
+test_required_properties(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_required_properties(TestAnnotationJsonProperty.java:40)
+
+test_required_properties_not_missing(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_required_properties_not_missing(TestAnnotationJsonProperty.java:87)
+
+test_bind_from_multiple_names(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_bind_from_multiple_names(TestAnnotationJsonProperty.java:73)
+
+test_specify_property(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_specify_property(TestAnnotationJsonProperty.java:99)
+
+test_creator_with_json_property(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_creator_with_json_property(TestAnnotationJsonProperty.java:163)
+
+test_integer_property_decoder(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_integer_property_decoder(TestAnnotationJsonProperty.java:62)
+
+test_field_and_getter_setter(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_field_and_getter_setter(TestAnnotationJsonProperty.java:183)
+
+test_property_decoder(com.jsoniter.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonProperty.test_property_decoder(TestAnnotationJsonProperty.java:51)
+

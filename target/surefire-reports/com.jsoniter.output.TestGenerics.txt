@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestGenerics
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in com.jsoniter.output.TestGenerics
+test_inherited_getter_is_not_duplicate(com.jsoniter.output.TestGenerics)  Time elapsed: 0.062 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGenerics.test_inherited_getter_is_not_duplicate(TestGenerics.java:37)
+
+test_wildcard(com.jsoniter.output.TestGenerics)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestGenerics.test_wildcard(TestGenerics.java:55)
+

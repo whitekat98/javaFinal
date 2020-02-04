@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.any.TestArray
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in com.jsoniter.any.TestArray
+test_to_string(com.jsoniter.any.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [J with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+long[] arr = (long[])obj;
+stream.writeVal((long)e);
+if (arr.length == 0) { return; }
+int i = 0;
+long e = arr[i++];
+while (i < arr.length) {
+stream.write(',');
+e = arr[i++];
+stream.write((byte)']');
+stream.writeVal((long)e);
+}
+}
+
+	at com.jsoniter.any.TestArray.test_to_string(TestArray.java:53)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.any.TestArray.test_to_string(TestArray.java:53)
+
+test_null(com.jsoniter.any.TestArray)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.jsoniter.any.ObjectLazyAny
+	at com.jsoniter.any.TestArray.test_null(TestArray.java:77)
+
+test_fill_partial_then_iterate(com.jsoniter.any.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.any.TestArray.test_fill_partial_then_iterate(TestArray.java:60)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.any.TestArray.test_fill_partial_then_iterate(TestArray.java:60)
+
+test_equals_and_hashcode(com.jsoniter.any.TestArray)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.any.TestArray.test_equals_and_hashcode(TestArray.java:70)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 2, peek: [1, buf: [1,2,3]
+	at com.jsoniter.any.TestArray.test_equals_and_hashcode(TestArray.java:70)
+

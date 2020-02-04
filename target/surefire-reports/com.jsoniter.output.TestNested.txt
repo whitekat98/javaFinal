@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestNested
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in com.jsoniter.output.TestNested
+test_recursive_class(com.jsoniter.output.TestNested)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestNested.test_recursive_class(TestNested.java:119)
+
+test_map_of_objects(com.jsoniter.output.TestNested)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestNested.test_map_of_objects(TestNested.java:94)
+
+test_object_of_array(com.jsoniter.output.TestNested)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestNested.test_object_of_array(TestNested.java:70)
+
+test_array_of_objects(com.jsoniter.output.TestNested)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestNested.test_array_of_objects(TestNested.java:38)
+
+test_collection_of_objects(com.jsoniter.output.TestNested)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestNested.test_collection_of_objects(TestNested.java:47)
+

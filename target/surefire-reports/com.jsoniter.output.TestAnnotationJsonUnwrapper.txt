@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestAnnotationJsonUnwrapper
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in com.jsoniter.output.TestAnnotationJsonUnwrapper
+test_unwrapper_with_map(com.jsoniter.output.TestAnnotationJsonUnwrapper)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestAnnotationJsonUnwrapper.test_unwrapper_with_map(TestAnnotationJsonUnwrapper.java:47)
+
+test_unwrapper(com.jsoniter.output.TestAnnotationJsonUnwrapper)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestAnnotationJsonUnwrapper.test_unwrapper(TestAnnotationJsonUnwrapper.java:31)
+

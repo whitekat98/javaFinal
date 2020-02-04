@@ -1,0 +1,2 @@
+JMH S 22 com.jsoniter.BenchGson S 66 com.jsoniter.generated.BenchGson_jsoniterReflectionDecoder_jmhTest S 25 jsoniterReflectionDecoder S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 22 com.jsoniter.BenchGson S 52 com.jsoniter.generated.BenchGson_gsonDecoder_jmhTest S 11 gsonDecoder S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

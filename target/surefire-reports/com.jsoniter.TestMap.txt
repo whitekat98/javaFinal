@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestMap
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in com.jsoniter.TestMap
+test_object_key(com.jsoniter.TestMap)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestMap.test_object_key(TestMap.java:21)
+
+test_enum_key(com.jsoniter.TestMap)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestMap.test_enum_key(TestMap.java:49)
+
+test_integer_key(com.jsoniter.TestMap)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestMap.test_integer_key(TestMap.java:37)
+
+test_string_key(com.jsoniter.TestMap)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestMap.test_string_key(TestMap.java:29)
+
+test_MapKeyCodec(com.jsoniter.TestMap)  Time elapsed: 0.016 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestMap.test_MapKeyCodec(TestMap.java:69)
+

@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestSpiTypeEncoder
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.jsoniter.output.TestSpiTypeEncoder
+test_TypeEncoder_for_type_literal(com.jsoniter.output.TestSpiTypeEncoder)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestSpiTypeEncoder.test_TypeEncoder_for_type_literal(TestSpiTypeEncoder.java:39)
+
+test_TypeEncoder(com.jsoniter.output.TestSpiTypeEncoder)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[1]481365190000> but was:<[]481365190000>
+	at com.jsoniter.output.TestSpiTypeEncoder.test_TypeEncoder(TestSpiTypeEncoder.java:35)
+

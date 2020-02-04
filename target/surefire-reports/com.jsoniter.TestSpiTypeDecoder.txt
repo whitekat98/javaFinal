@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestSpiTypeDecoder
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.jsoniter.TestSpiTypeDecoder
+test_direct(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<1481365190000> but was:<190000>
+	at com.jsoniter.TestSpiTypeDecoder.test_direct(TestSpiTypeDecoder.java:75)
+
+test_list_or_single_element(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestSpiTypeDecoder.test_list_or_single_element(TestSpiTypeDecoder.java:99)
+
+test_TypeDecoder(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0.016 s  <<< ERROR!
+com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 3, peek: {"f, buf: {"field1": 100}
+	at com.jsoniter.TestSpiTypeDecoder.test_TypeDecoder(TestSpiTypeDecoder.java:35)
+
+test_as_field_type(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestSpiTypeDecoder.test_as_field_type(TestSpiTypeDecoder.java:84)
+
+test_as_array_element(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestSpiTypeDecoder.test_as_array_element(TestSpiTypeDecoder.java:90)
+
+test_TypeDecoder_for_generics(com.jsoniter.TestSpiTypeDecoder)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestSpiTypeDecoder.test_TypeDecoder_for_generics(TestSpiTypeDecoder.java:41)
+

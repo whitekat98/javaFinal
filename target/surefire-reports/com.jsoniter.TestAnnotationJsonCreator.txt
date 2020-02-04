@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestAnnotationJsonCreator
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.jsoniter.TestAnnotationJsonCreator
+test_ctor_and_setter_binding(com.jsoniter.TestAnnotationJsonCreator)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonCreator.test_ctor_and_setter_binding(TestAnnotationJsonCreator.java:53)
+
+test_ctor(com.jsoniter.TestAnnotationJsonCreator)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonCreator.test_ctor(TestAnnotationJsonCreator.java:28)
+

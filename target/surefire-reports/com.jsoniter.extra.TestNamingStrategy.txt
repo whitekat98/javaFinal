@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.extra.TestNamingStrategy
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.281 s <<< FAILURE! - in com.jsoniter.extra.TestNamingStrategy
+test(com.jsoniter.extra.TestNamingStrategy)  Time elapsed: 0.281 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.extra.TestNamingStrategy.test(TestNamingStrategy.java:14)
+

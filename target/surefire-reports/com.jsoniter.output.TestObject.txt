@@ -1,0 +1,80 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestObject
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 0, Errors: 19, Skipped: 0, Time elapsed: 0.203 s <<< FAILURE! - in com.jsoniter.output.TestObject
+test_array_field_is_null(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_array_field_is_null(TestObject.java:114)
+
+test_omit_selft_defined(com.jsoniter.output.TestObject)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_omit_selft_defined(TestObject.java:405)
+
+test_not_omit_null(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_not_omit_null(TestObject.java:216)
+
+test_enum(com.jsoniter.output.TestObject)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_enum(TestObject.java:88)
+
+test_null(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestObject.test_null(TestObject.java:51)
+
+test_empty_object(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_empty_object(TestObject.java:61)
+
+test_omit_default(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_omit_default(TestObject.java:358)
+
+test_missing_notFirst(com.jsoniter.output.TestObject)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_missing_notFirst(TestObject.java:340)
+
+test_name_conflict(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_name_conflict(TestObject.java:252)
+
+test_indention(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_indention(TestObject.java:290)
+
+test_not_nullable(com.jsoniter.output.TestObject)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_not_nullable(TestObject.java:147)
+
+test_array_field_is_null_via_getter(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_array_field_is_null_via_getter(TestObject.java:130)
+
+test_omit_null(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_omit_null(TestObject.java:229)
+
+test_null_field(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_null_field(TestObject.java:72)
+
+test_array_field(com.jsoniter.output.TestObject)  Time elapsed: 0.078 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_array_field(TestObject.java:107)
+
+test_transient_field_getter(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_transient_field_getter(TestObject.java:422)
+
+test_indention_with_empty_object(com.jsoniter.output.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_indention_with_empty_object(TestObject.java:320)
+
+test_collection_value_not_nullable(com.jsoniter.output.TestObject)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_collection_value_not_nullable(TestObject.java:169)
+
+test_field(com.jsoniter.output.TestObject)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.UnsupportedOperationException
+	at com.jsoniter.output.TestObject.test_field(TestObject.java:36)
+

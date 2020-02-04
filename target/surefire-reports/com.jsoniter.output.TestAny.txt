@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestAny
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.219 s <<< FAILURE! - in com.jsoniter.output.TestAny
+test_list(com.jsoniter.output.TestAny)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.IllegalArgumentException: can not bind to generic collection without argument types, try syntax like TypeLiteral<List<Integer>>{}
+	at com.jsoniter.output.TestAny.test_list(TestAny.java:114)
+
+test_array(com.jsoniter.output.TestAny)  Time elapsed: 0.047 s  <<< ERROR!
+com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class [I with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+int[] arr = (int[])obj;
+stream.writeVal((int)e);
+if (arr.length == 0) { return; }
+int i = 0;
+int e = arr[i++];
+while (i < arr.length) {
+stream.write(',');
+e = arr[i++];
+stream.write((byte)']');
+stream.writeVal((int)e);
+}
+}
+
+	at com.jsoniter.output.TestAny.test_array(TestAny.java:123)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestAny.test_array(TestAny.java:123)
+
+test_float(com.jsoniter.output.TestAny)  Time elapsed: 0 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[1]00> but was:<[.100000]00>
+	at com.jsoniter.output.TestAny.test_float(TestAny.java:54)
+

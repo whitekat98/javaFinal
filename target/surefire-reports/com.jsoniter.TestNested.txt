@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestNested
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in com.jsoniter.TestNested
+test_recursive_class(com.jsoniter.TestNested)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestNested.test_recursive_class(TestNested.java:70)
+
+test_array_of_objects(com.jsoniter.TestNested)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestNested.test_array_of_objects(TestNested.java:13)
+
+test_get_all_array_elements_via_any(com.jsoniter.TestNested)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 3, peek:  [ , buf:  [ { "bar": 1 }, {"bar": 3} ]
+	at com.jsoniter.TestNested.test_get_all_array_elements_via_any(TestNested.java:30)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 3, peek:  [ , buf:  [ { "bar": 1 }, {"bar": 3} ]
+	at com.jsoniter.TestNested.test_get_all_array_elements_via_any(TestNested.java:30)
+
+test_get_all_with_some_invalid_path(com.jsoniter.TestNested)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 3, peek:  [ , buf:  [ { "bar": 1 }, {"foo": 3} ]
+	at com.jsoniter.TestNested.test_get_all_with_some_invalid_path(TestNested.java:48)
+Caused by: com.jsoniter.spi.JsonException: deserialize: trailing garbage found, head: 3, peek:  [ , buf:  [ { "bar": 1 }, {"foo": 3} ]
+	at com.jsoniter.TestNested.test_get_all_with_some_invalid_path(TestNested.java:48)
+

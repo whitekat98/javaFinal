@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.extra.TestPreciseFloat
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in com.jsoniter.extra.TestPreciseFloat
+test_indirect_encode(com.jsoniter.extra.TestPreciseFloat)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.extra.TestPreciseFloat.test_indirect_encode(TestPreciseFloat.java:29)
+

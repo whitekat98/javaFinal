@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestExisting
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.jsoniter.TestExisting
+test_indirect_reuse(com.jsoniter.TestExisting)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestExisting.test_indirect_reuse(TestExisting.java:44)
+
+test_direct_reuse(com.jsoniter.TestExisting)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestExisting.test_direct_reuse(TestExisting.java:28)
+
+test_reuse_list(com.jsoniter.TestExisting)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestExisting.test_reuse_list(TestExisting.java:53)
+
+test_reuse_map(com.jsoniter.TestExisting)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestExisting.test_reuse_map(TestExisting.java:68)
+
+test_reuse_linked_list(com.jsoniter.TestExisting)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestExisting.test_reuse_linked_list(TestExisting.java:60)
+

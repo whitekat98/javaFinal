@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestObject
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 0.063 s <<< FAILURE! - in com.jsoniter.TestObject
+test_private_ref(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_private_ref(TestObject.java:238)
+
+test_inheritance(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_inheritance(TestObject.java:117)
+
+test_object_creation(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_object_creation(TestObject.java:158)
+
+test_maybe_empty_array_field(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_maybe_empty_array_field(TestObject.java:198)
+
+test_two_fields(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_two_fields(TestObject.java:71)
+
+test_enum(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_enum(TestObject.java:175)
+
+test_incomplete_field_name(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_incomplete_field_name(TestObject.java:123)
+
+test_empty_object(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_empty_object(TestObject.java:35)
+
+test_read_null(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_read_null(TestObject.java:95)
+
+test_iterator(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.jsoniter.any.ObjectLazyAny
+	at com.jsoniter.TestObject.test_iterator(TestObject.java:205)
+
+test_non_ascii_field(com.jsoniter.TestObject)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_non_ascii_field(TestObject.java:267)
+
+test_setter_is_preferred(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_setter_is_preferred(TestObject.java:252)
+
+test_native_field(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_native_field(TestObject.java:104)
+
+test_empty_class(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_empty_class(TestObject.java:28)
+
+test_one_field(com.jsoniter.TestObject)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestObject.test_one_field(TestObject.java:51)
+

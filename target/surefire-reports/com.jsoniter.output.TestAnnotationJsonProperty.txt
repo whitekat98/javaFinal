@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.output.TestAnnotationJsonProperty
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! - in com.jsoniter.output.TestAnnotationJsonProperty
+test_getter_and_setter(com.jsoniter.output.TestAnnotationJsonProperty)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestAnnotationJsonProperty.test_getter_and_setter(TestAnnotationJsonProperty.java:68)
+
+test_getter(com.jsoniter.output.TestAnnotationJsonProperty)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestAnnotationJsonProperty.test_getter(TestAnnotationJsonProperty.java:50)
+
+test_encoder(com.jsoniter.output.TestAnnotationJsonProperty)  Time elapsed: 0.046 s  <<< ERROR!
+com.jsoniter.spi.JsonException: java.lang.NoSuchMethodException: com.jsoniter.spi.Encoder$StringIntEncoder.<init>(com.jsoniter.spi.Binding)
+	at com.jsoniter.output.TestAnnotationJsonProperty.test_encoder(TestAnnotationJsonProperty.java:36)
+Caused by: java.lang.NoSuchMethodException: com.jsoniter.spi.Encoder$StringIntEncoder.<init>(com.jsoniter.spi.Binding)
+	at com.jsoniter.output.TestAnnotationJsonProperty.test_encoder(TestAnnotationJsonProperty.java:36)
+
+test_property(com.jsoniter.output.TestAnnotationJsonProperty)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.output.TestAnnotationJsonProperty.test_property(TestAnnotationJsonProperty.java:23)
+

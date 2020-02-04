@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jsoniter.output.TestMap" time="0.265" tests="11" errors="11" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\bianc\Desktop\Repository modelli\CEBUG\target\test-classes;C:\Users\bianc\Desktop\Repository modelli\CEBUG\target\classes;C:\Users\bianc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\bianc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bianc\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.5\jackson-annotations-2.9.5.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\bianc\.m2\repository\com\google\code\gson\gson\2.8.3\gson-2.8.3.jar;C:\Users\bianc\.m2\repository\org\openjdk\jmh\jmh-core\1.20\jmh-core-1.20.jar;C:\Users\bianc\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\bianc\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\bianc\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.20\jmh-generator-annprocess-1.20.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin"/>
+    <property name="sun.java.command" value="C:\Users\bianc\AppData\Local\Temp\surefire2896372592338880348\surefirebooter8414407441678950692.jar C:\Users\bianc\AppData\Local\Temp\surefire2896372592338880348 2020-02-04T15-38-10_644-jvmRun1 surefire2783139052172084162tmp surefire_411459818502923867449tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\bianc\Desktop\Repository modelli\CEBUG\target\test-classes;C:\Users\bianc\Desktop\Repository modelli\CEBUG\target\classes;C:\Users\bianc\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\bianc\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\bianc\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.5\jackson-annotations-2.9.5.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\bianc\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\bianc\.m2\repository\com\google\code\gson\gson\2.8.3\gson-2.8.3.jar;C:\Users\bianc\.m2\repository\org\openjdk\jmh\jmh-core\1.20\jmh-core-1.20.jar;C:\Users\bianc\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\bianc\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\bianc\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.20\jmh-generator-annprocess-1.20.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\bianc"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\bianc\Desktop\Repository modelli\CEBUG"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\bianc\AppData\Local\Temp\surefire2896372592338880348\surefirebooter8414407441678950692.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+8-LTS"/>
+    <property name="user.name" value="bianc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\bianc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\bianc\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\bianc\Desktop\Repository modelli\CEBUG"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\bianc\bin;C:\Users\bianc\AppData\Local\Programs\Git\mingw64\bin;C:\Users\bianc\AppData\Local\Programs\Git\usr\local\bin;C:\Users\bianc\AppData\Local\Programs\Git\usr\bin;C:\Users\bianc\AppData\Local\Programs\Git\usr\bin;C:\Users\bianc\AppData\Local\Programs\Git\mingw64\bin;C:\Users\bianc\AppData\Local\Programs\Git\usr\bin;C:\Users\bianc\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\TortoiseSVN\bin;C:\Users\bianc\Desktop\apache-maven-3.6.3\bin;C:\Users\bianc\Desktop\sonarqube-7.4\bin;C:\Program Files\Java\jdk-11.0.6\bin;C:\Users\bianc\Downloads\junit-4.13.jar;C:\Users\bianc\AppData\Local\Programs\Git\cmd;C:\Users\bianc\AppData\Local\Microsoft\WindowsApps;C:\Users\bianc\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\bianc\AppData\Local\Programs\Git\usr\bin\core_perl;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_value_is_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_value_is_null(TestMap.java:54)
+</error>
+  </testcase>
+  <testcase name="test_value_is_null" classname="com.jsoniter.output.TestMap" time="0.032">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_value_is_null(TestMap.java:54)
+</error>
+  </testcase>
+  <testcase name="test_value_is_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_value_is_null(TestMap.java:54)
+</error>
+  </testcase>
+  <testcase name="test_value_is_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_value_is_null(TestMap.java:54)
+</error>
+  </testcase>
+  <testcase name="test_multiple_keys" classname="com.jsoniter.output.TestMap" time="0.094">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+</error>
+  </testcase>
+  <testcase name="test_multiple_keys" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+</error>
+  </testcase>
+  <testcase name="test_multiple_keys" classname="com.jsoniter.output.TestMap" time="0.219">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+</error>
+  </testcase>
+  <testcase name="test_multiple_keys" classname="com.jsoniter.output.TestMap" time="0.187">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_multiple_keys(TestMap.java:156)
+</error>
+  </testcase>
+  <testcase name="test_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_null(TestMap.java:45)
+</error>
+  </testcase>
+  <testcase name="test_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_null(TestMap.java:45)
+</error>
+  </testcase>
+  <testcase name="test_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_null(TestMap.java:45)
+</error>
+  </testcase>
+  <testcase name="test_null" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_null(TestMap.java:45)
+</error>
+  </testcase>
+  <testcase name="test_indention_with_empty_map" classname="com.jsoniter.output.TestMap" time="0.312">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { stream.write((byte)&apos;{&apos;, (byte)&apos;}&apos;); return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectStart(); stream.writeIndention();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.writeMore();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.writeObjectEnd();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { stream.write((byte)'{', (byte)'}'); return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectStart(); stream.writeIndention();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.writeMore();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+stream.writeObjectField(entry.getKey());
+stream.writeObjectEnd();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+</error>
+  </testcase>
+  <testcase name="test_indention_with_empty_map" classname="com.jsoniter.output.TestMap" time="0.015">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { stream.write((byte)&apos;{&apos;, (byte)&apos;}&apos;); return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectStart(); stream.writeIndention();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.writeMore();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.writeObjectEnd();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { stream.write((byte)'{', (byte)'}'); return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectStart(); stream.writeIndention();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.writeMore();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+stream.writeObjectField(entry.getKey());
+stream.writeObjectEnd();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+</error>
+  </testcase>
+  <testcase name="test_indention_with_empty_map" classname="com.jsoniter.output.TestMap" time="0.328">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { stream.write((byte)&apos;{&apos;, (byte)&apos;}&apos;); return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectStart(); stream.writeIndention();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.writeMore();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.writeObjectEnd();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { stream.write((byte)'{', (byte)'}'); return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectStart(); stream.writeIndention();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.writeMore();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+stream.writeObjectField(entry.getKey());
+stream.writeObjectEnd();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+</error>
+  </testcase>
+  <testcase name="test_indention_with_empty_map" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { stream.write((byte)&apos;{&apos;, (byte)&apos;}&apos;); return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectStart(); stream.writeIndention();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.writeMore();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.writeObjectEnd();&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;stream.writeVal((java.lang.Object)entry.getValue());&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { stream.write((byte)'{', (byte)'}'); return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectStart(); stream.writeIndention();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.writeMore();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+stream.writeObjectField(entry.getKey());
+stream.writeObjectEnd();
+if (entry.getValue() == null) { stream.writeNull(); } else {
+stream.writeVal((java.lang.Object)entry.getValue());
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_indention_with_empty_map(TestMap.java:130)
+</error>
+  </testcase>
+  <testcase name="test_object_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+</error>
+  </testcase>
+  <testcase name="test_object_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+</error>
+  </testcase>
+  <testcase name="test_object_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+</error>
+  </testcase>
+  <testcase name="test_object_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_object_key(TestMap.java:148)
+</error>
+  </testcase>
+  <testcase name="test" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+</error>
+  </testcase>
+  <testcase name="test" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+</error>
+  </testcase>
+  <testcase name="test" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+</error>
+  </testcase>
+  <testcase name="test" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test(TestMap.java:32)
+</error>
+  </testcase>
+  <testcase name="test_enum_key" classname="com.jsoniter.output.TestMap" time="0.047">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_enum_key(TestMap.java:76)
+</error>
+  </testcase>
+  <testcase name="test_enum_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_enum_key(TestMap.java:76)
+</error>
+  </testcase>
+  <testcase name="test_enum_key" classname="com.jsoniter.output.TestMap" time="0.047">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_enum_key(TestMap.java:76)
+</error>
+  </testcase>
+  <testcase name="test_enum_key" classname="com.jsoniter.output.TestMap" time="0.031">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_enum_key(TestMap.java:76)
+</error>
+  </testcase>
+  <testcase name="test_integer_key" classname="com.jsoniter.output.TestMap" time="0.016">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_integer_key(TestMap.java:63)
+</error>
+  </testcase>
+  <testcase name="test_integer_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_integer_key(TestMap.java:63)
+</error>
+  </testcase>
+  <testcase name="test_integer_key" classname="com.jsoniter.output.TestMap" time="0.016">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_integer_key(TestMap.java:63)
+</error>
+  </testcase>
+  <testcase name="test_integer_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_integer_key(TestMap.java:63)
+</error>
+  </testcase>
+  <testcase name="test_int_as_map_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_int_as_map_key(TestMap.java:141)
+</error>
+  </testcase>
+  <testcase name="test_int_as_map_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_int_as_map_key(TestMap.java:141)
+</error>
+  </testcase>
+  <testcase name="test_int_as_map_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_int_as_map_key(TestMap.java:141)
+</error>
+  </testcase>
+  <testcase name="test_int_as_map_key" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_int_as_map_key(TestMap.java:141)
+</error>
+  </testcase>
+  <testcase name="test_MapKeyCodec" classname="com.jsoniter.output.TestMap" time="0.109">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_MapKeyCodec(TestMap.java:96)
+</error>
+  </testcase>
+  <testcase name="test_MapKeyCodec" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_MapKeyCodec(TestMap.java:96)
+</error>
+  </testcase>
+  <testcase name="test_MapKeyCodec" classname="com.jsoniter.output.TestMap" time="0.109">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_MapKeyCodec(TestMap.java:96)
+</error>
+  </testcase>
+  <testcase name="test_MapKeyCodec" classname="com.jsoniter.output.TestMap" time="0.047">
+    <error message="Missing type parameter." type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.output.TestMap.test_MapKeyCodec(TestMap.java:96)
+</error>
+  </testcase>
+  <testcase name="test_empty" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372036535405691.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+</error>
+  </testcase>
+  <testcase name="test_empty" classname="com.jsoniter.output.TestMap" time="0.016">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+</error>
+  </testcase>
+  <testcase name="test_empty" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg9223372034806973682.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+</error>
+  </testcase>
+  <testcase name="test_empty" classname="com.jsoniter.output.TestMap" time="0">
+    <error message="failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException&#10;public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {&#10;if (obj == null) { stream.writeNull(); return; }&#10;java.util.Map map = (java.util.Map)obj;&#10;java.util.Iterator iter = map.entrySet().iterator();&#10;if(!iter.hasNext()) { return; }&#10;java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();&#10;stream.writeObjectField(entry.getKey());&#10;while(iter.hasNext()) {&#10;entry = (java.util.Map.Entry)iter.next();&#10;stream.write(&apos;,&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;stream.writeObjectField(entry.getKey());&#10;stream.write((byte)&apos;}&apos;);&#10;if (entry.getValue() == null) { stream.writeNull(); } else {&#10;com.jsoniter.output.CodegenAccess.writeVal(&quot;jsoniter_codegen.cfg1830135045.encoder.java.lang.Object&quot;, (java.lang.Object)entry.getValue(), stream);&#10;}&#10;}&#10;}&#10;" type="com.jsoniter.spi.JsonException">com.jsoniter.spi.JsonException: 
+failed to generate encoder for: class java.util.HashMap with [], exception: java.lang.NullPointerException
+public static void encode_(java.lang.Object obj, com.jsoniter.output.JsonStream stream) throws java.io.IOException {
+if (obj == null) { stream.writeNull(); return; }
+java.util.Map map = (java.util.Map)obj;
+java.util.Iterator iter = map.entrySet().iterator();
+if(!iter.hasNext()) { return; }
+java.util.Map.Entry entry = (java.util.Map.Entry)iter.next();
+stream.writeObjectField(entry.getKey());
+while(iter.hasNext()) {
+entry = (java.util.Map.Entry)iter.next();
+stream.write(',');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+stream.writeObjectField(entry.getKey());
+stream.write((byte)'}');
+if (entry.getValue() == null) { stream.writeNull(); } else {
+com.jsoniter.output.CodegenAccess.writeVal("jsoniter_codegen.cfg1830135045.encoder.java.lang.Object", (java.lang.Object)entry.getValue(), stream);
+}
+}
+}
+
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+Caused by: java.lang.NullPointerException
+	at com.jsoniter.output.TestMap.test_empty(TestMap.java:39)
+</error>
+  </testcase>
+</testsuite>

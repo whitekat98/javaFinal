@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestDemo
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.25 s <<< FAILURE! - in com.jsoniter.TestDemo
+test_any_api(com.jsoniter.TestDemo)  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_any_api(TestDemo.java:34)
+
+test_utf8(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_utf8(TestDemo.java:181)
+
+test_abc(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_abc(TestDemo.java:58)
+
+test_iterator_api(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_iterator_api(TestDemo.java:46)
+
+test_bind_api(com.jsoniter.TestDemo)  Time elapsed: 0.047 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_bind_api(TestDemo.java:23)
+
+test_generics(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestDemo.test_generics(TestDemo.java:203)
+
+test_empty_array_as_null(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_empty_array_as_null(TestDemo.java:113)
+
+test_iterator_api_and_bind(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_iterator_api_and_bind(TestDemo.java:67)
+
+test_any_is_fun(com.jsoniter.TestDemo)  Time elapsed: 0.14 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at com.jsoniter.TestDemo.test_any_is_fun(TestDemo.java:147)
+Caused by: com.jsoniter.spi.JsonException: Missing type parameter.
+	at com.jsoniter.TestDemo.test_any_is_fun(TestDemo.java:147)
+
+test_deserialize(com.jsoniter.TestDemo)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestDemo.test_deserialize(TestDemo.java:187)
+

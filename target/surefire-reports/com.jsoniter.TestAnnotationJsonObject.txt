@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestAnnotationJsonObject
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.172 s <<< FAILURE! - in com.jsoniter.TestAnnotationJsonObject
+test_unknown_properties_blacklist(com.jsoniter.TestAnnotationJsonObject)  Time elapsed: 0.015 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonObject.test_unknown_properties_blacklist(TestAnnotationJsonObject.java:47)
+
+test_extra_properties(com.jsoniter.TestAnnotationJsonObject)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonObject.test_extra_properties(TestAnnotationJsonObject.java:22)
+
+test_unknown_properties(com.jsoniter.TestAnnotationJsonObject)  Time elapsed: 0.062 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonObject.test_unknown_properties(TestAnnotationJsonObject.java:33)
+
+test_no_unknown_properties(com.jsoniter.TestAnnotationJsonObject)  Time elapsed: 0.063 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotationJsonObject.test_no_unknown_properties(TestAnnotationJsonObject.java:61)
+

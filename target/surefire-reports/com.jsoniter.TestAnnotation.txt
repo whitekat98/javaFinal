@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.jsoniter.TestAnnotation
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.031 s <<< FAILURE! - in com.jsoniter.TestAnnotation
+test_name_conflict(com.jsoniter.TestAnnotation)  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotation.test_name_conflict(TestAnnotation.java:84)
+
+test_inherited_setter_is_not_duplicate(com.jsoniter.TestAnnotation)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotation.test_inherited_setter_is_not_duplicate(TestAnnotation.java:103)
+
+test_single_param_setter(com.jsoniter.TestAnnotation)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotation.test_single_param_setter(TestAnnotation.java:48)
+
+test_static_factory(com.jsoniter.TestAnnotation)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.jsoniter.TestAnnotation.test_static_factory(TestAnnotation.java:34)
+
